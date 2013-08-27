@@ -14,3 +14,15 @@ elif cars < people:
 	print "We should not take the cars"
 else:
 	print "we cant make up our minds."
+
+if buses > cars:
+	print "thats too many buses"
+elif buses < cars:
+	print "Maybe we could take the buses?"
+else:
+	print "we're pretty damn indecisive"
+
+if people > buses:
+	print "Alright, take the bus"
+else:
+	print "Looks like we're staying home"
