@@ -22,4 +22,18 @@ if door == "1":	#if True...
 	else:
 		print "Well, doing %s is probably better. Bear runs away." % bear
 
-	
+elif door == "2":
+	print "You stare into the endless abyss at Cthulhe's retina"
+	print "1. Blueberries."
+	print "2. Yellow Jacket Clothespins"
+	print "3. Understanding revolvers yelling melodies."
+
+	insanity = raw_input("> ")
+
+	if insanity == "1" or insanity == "2":
+		print "Your body survives powered by a mind of jello!"
+	else:
+		print "The insanity rots your eyes into a pool of muck. Good job!"
+
+else:
+	print "You stumble around and fall on a knife and die. Way to go!"
