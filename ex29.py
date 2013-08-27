@@ -20,7 +20,7 @@ if people < dogs:
 if people > dogs:
 	print "The World is dry"
 
-dogs += %
+dogs += 5
 
 if people >= dogs:
 	print "People are greater or equal to dogs"
