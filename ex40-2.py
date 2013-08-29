@@ -6,6 +6,5 @@
 
 import states
 
-__getitem__(states)
 
-print states['Kansas']
+print states.states['Kansas']
