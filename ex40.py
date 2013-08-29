@@ -4,3 +4,9 @@
 #
 #I'm concurrently learning Git along with Zed's Guide. 
 
+#dictionaries practice
+states = {
+		'Kansas': 'KS',
+		'Arkansas': 'AR'
+		}
+print states['Kansas']
