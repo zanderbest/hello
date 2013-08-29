@@ -4,21 +4,15 @@
 #
 #I'm concurrently learning Git along with Zed's Guide. 
 
+def iterate(r):  	#defines iterate func with 1 argument: r
+	n = 0			#defines the variable we will iterate: n
+	numbers = [] 	#defines a list where we store results: numbers
+	while n <= r:	#For each time n is less than r (our restraint)
+		print n 	#print the value of n
+		numbers.append(n) #expand the list size and store the latest value of n
+		print numbers #print the list as it stands now
+		n += 1		#finally iterate n by 1, and then repeat this while loop
 
 
-i = 0 
-numbers = [] #this is a list (array?)
 
-while i < 6:
-	print "At the top i %d" % i
-	numbers.append(i)
-
-	i = i + 1
-	print "Numbers now: ", numbers
-	print "At the bottom i is %d" % i
-
-
-print "The numbers: "
-
-for num in numbers: 
-	print num
+iterate(6) 			#call the function, pass r (the restraint) as 6
