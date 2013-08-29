@@ -18,3 +18,16 @@ def iterate(r):  	#defines iterate func with 1 argument: r
 
 
 iterate(6) 			#call the function, pass r (the restraint) as 6
+
+def foriterate(l):
+	x = 0
+	forNumbers = []
+	g = input("Choose iteration: ")
+	print g
+	print x
+	for x in range(0, l):
+		x += 1
+		print x
+
+l = input("choose domain: ")
+foriterate(l)
