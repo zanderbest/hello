@@ -4,5 +4,21 @@
 #
 #I'm concurrently learning Git along with Zed's Guide. 
 
-hairs = ['brown', 'blond', 'red']
-print hairs
+
+
+i = 0 
+numbers = [] #this is a list (array?)
+
+while i < 6:
+	print "At the top i %d" % i
+	numbers.append(i)
+
+	i = i + 1
+	print "Numbers now: ", numbers
+	print "At the bottom i is %d" % i
+
+
+print "The numbers: "
+
+for num in numbers: 
+	print num
